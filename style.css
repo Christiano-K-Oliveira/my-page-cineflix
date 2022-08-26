@@ -1,0 +1,216 @@
+.menu_navegacao{
+    background-color: rgb(61, 61, 61);
+}
+#border_gradient{
+    width: 100%;
+    height: 5px;
+    /* background: linear-gradient(90deg, rgba(9,9,121,1) 0%, rgba(0,212,255,1) 50%, rgba(9,9,121,1) 100%); */
+    background: linear-gradient(90deg, rgba(21,21,193,1) 0%, rgba(0,212,255,1) 50%, rgba(21,21,193,1) 100%);
+}
+.menu_navegacao nav{
+    display: flex;
+    padding: 15px 10px;
+    align-items: center;
+    justify-content: space-between;
+    max-width: 95%;
+    margin: 0 auto;
+}
+.menu_navegacao nav div{
+    display: flex;
+}
+.menu_navegacao nav ul{
+    display: flex;
+    padding: 4px;
+    margin-left: 35px;
+}
+.menu_navegacao h1{
+    color: #fff;
+    font-weight: 600;
+    font-size: 26px;
+}
+.menu_navegacao nav form button img{
+    width: 17px;
+    height: 17px;
+}
+.menu_navegacao nav div ul li a{
+    text-decoration: none;
+    color: #fff;
+    font-weight: 500;
+    font-size: 15px;
+    margin-right: 40px;
+    transition: 0.3s ease;
+}
+.menu_navegacao nav ul li a:hover{
+    transition: 0.3s ease;
+    color: rgb(58, 143, 255);
+}
+.menu_navegacao form {
+    background-color: #fff;
+    padding: 5px;
+    border-radius: 6px;
+}
+.menu_navegacao input{
+    outline: none;
+    border: 0px;
+    height: 20px;
+    width: 260px;
+}
+.menu_navegacao button{
+    border: none;
+    cursor: pointer;
+    margin-left: 50px;
+    background-color: #fff;
+    transform: translateY(3px);
+}
+
+.menu_principal{
+    margin: 0 auto;
+    max-width: 85%;
+}
+.menu_principal section nav{
+    padding-top: 20px;
+    display: flex;
+    align-items: center;
+}
+.menu_principal section nav h2{
+    font-size: 20px;
+}
+.menu_principal section nav div{
+    display: flex;
+    align-items: center;
+}
+.menu_principal section nav div img{
+    height: 60px;
+    width: 60px;
+    margin-right: 15px;
+    margin-bottom: 15px;
+}
+.menu_principal section nav ul{
+    display: flex;
+    padding-left: 8px;
+}
+.menu_principal section nav ul li{
+    font-size: 13px;
+    padding: 2px 10px;
+    color: rgb(226, 136, 0);
+    border: 1px solid rgb(226, 136, 0);
+    border-radius: 6px;
+    margin-right: 5px;
+}
+.menu_principal section form select{
+    border: 1px solid black;
+    background-color: #fff;
+    height: 35px;
+    width: 200px;
+    margin-top: 15px;
+    margin-bottom: 30px;
+}
+
+ 
+.menu_principal .sessao_filmes{
+    display: flex;
+    padding-bottom: 5%;
+    justify-content: space-between;
+}
+.menu_principal .sessao_filmes ul div{
+    display: flex;
+}
+.menu_principal .sessao_filmes ul div li{
+    max-width: 220px;
+    margin: 5px;
+    margin-bottom: 20px;
+    height: 350px;
+    background-color: black transparent;
+    padding: 8px;
+    border-radius: 8px;
+    transition: 0.5s ease;
+}
+.menu_principal .sessao_filmes ul div li:hover{
+    background-color: rgb(226, 136, 0);
+    color: #fff;
+    transition: 0.5s ease;
+}
+.menu_principal .sessao_filmes ul div li h3{
+    font-size: 13px;
+    text-align: center;
+    height: 30px;
+    margin: 15px 0px;   
+}
+.menu_principal .sessao_filmes ul div li a{
+    text-decoration: none;
+    color: rgb(226, 136, 0);
+    background-color: #fff;
+    border: 1px solid rgb(226, 136, 0);
+    padding: 5px;
+    border-radius: 8px;
+    font-size: 11px;
+    transition: 0.3s ease;
+}
+.menu_principal .sessao_filmes ul div li a span{
+    font-weight: 800;
+    font-size: 14px;
+}
+.menu_principal .sessao_filmes ul div li a:hover{
+    color: #fff;
+    background-color: rgb(226, 136, 0);
+    transition: 0.3s ease;
+    border: 2px solid #fff;
+}
+.menu_principal .sessao_filmes ul div li figure .movie_img{
+    height: 250px;
+    width: 200px;
+    border-radius: 6px;
+    opacity: 100%;
+    transition: 0.3s ease;
+}
+.menu_principal .sessao_filmes ul div li figure .movie_img:hover{
+    opacity: 100%;
+    cursor: pointer;
+    transition: 0.3s ease;
+}
+.menu_principal .sessao_filmes ul div li figure .icon_play{
+    height: 40px;
+    width: 40px;
+    border-radius: 50%;
+    background-color: rgba(255, 255, 255);
+    opacity: 75%;
+    padding: 5px;
+    transform: translateX(210%) translateY(-370%);
+    cursor: pointer;
+}
+.menu_principal .sessao_filmes div li figure{
+    max-height: 250px;
+}
+
+
+.menu_principal .sessao_filmes aside{
+    padding: 0px 20px;
+    border: 3px solid rgb(61, 61, 61);
+    margin-left: 1%;
+    margin-top: 1%;
+    height: 100%;
+}
+.menu_principal .sessao_filmes aside h2{
+    margin-bottom: 15%;
+    background-color: rgb(61, 61, 61);
+    color: #fff;
+    padding: 8px 5px;
+    text-align: center;
+    border-radius: 8px;
+    transform: translateY(30%);
+}
+.menu_principal .sessao_filmes aside ul li img{
+    height: 200px;
+    width: 250px;
+    margin-bottom: 5%;
+    border-radius: 6px;
+    cursor: pointer;
+    opacity: 85%;
+    border: 3px solid transparent;
+    transition: 0.3s ease;
+}
+.menu_principal .sessao_filmes aside ul li img:hover{
+    opacity: 100%;
+    border: 3px solid rgb(61, 61, 61);
+    transition: 0.3s ease;
+}
